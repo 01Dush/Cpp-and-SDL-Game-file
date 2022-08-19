@@ -56,7 +56,7 @@ bool init()
     IMG_Init(IMG_INIT_PNG);
     TTF_Init();
 
-    window.create("Curser", SCREEN_WIDTH, SCREEN_HEIGHT);
+    window.create("Cursed", SCREEN_WIDTH, SCREEN_HEIGHT);
     Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);
 
     srand((unsigned)time(0));
